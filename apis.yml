@@ -1,7 +1,13 @@
 aid: avidbots
 name: Avidbots
-description: Avidbots is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Avidbots is a robotics company that designs and manufactures fully autonomous
+  commercial floor-cleaning robots, including the Neo, Neo 2W, and Kas scrubbers, powered
+  by its proprietary Avidbots Autonomy AI, lidar, and 3D sensing for real-time mapping,
+  dynamic route planning, and intervention-free cleaning. Its robots serve airports,
+  warehouses, retail, manufacturing, education, and healthcare facilities, and are
+  managed through the web-based Avidbots Command Center. Avidbots was surfaced as a
+  portfolio company of 500 Global and added to the API Evangelist network; no public
+  developer API, OpenAPI, or developer portal was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/avidbots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,28 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avidbots.com/assets/Meta-Data-Images/AVD-310-WEB_Standard.png
 tags:
 - Company
+- Robotics
+- Automation
+- Autonomous Robots
+- Cleaning
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://avidbots.com
+- type: Blog
+  url: https://avidbots.com/resources/blog/
+- type: PrivacyPolicy
+  url: https://avidbots.com/privacy-policy/
+- type: Login
+  url: https://command.avidbots.com
+- type: DomainSecurity
+  url: security/avidbots-domain-security.yml
+- type: WellKnown
+  url: well-known/avidbots-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
